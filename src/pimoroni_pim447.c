@@ -41,8 +41,6 @@ static void deactivate_automouse_layer(struct k_timer *timer);
 static int previous_x = 0;
 static int previous_y = 0;
 
-DEVICE_DECLARE(pimoroni_pim447);
-
 void pim447_enable_sleep(const struct device *dev) {
   struct pimoroni_pim447_data *data = dev->data;
 

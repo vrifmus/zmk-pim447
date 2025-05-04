@@ -40,9 +40,6 @@
 
 #define LED_ANIMATION_INTERVAL_MS 50 // Update interval in milliseconds
 
-#define DEVICE_DECLARE(dev_id)                                                 \
-  extern const struct device DEVICE_NAME_GET(dev_id)
-
 struct pimoroni_pim447_config {
   struct i2c_dt_spec i2c;
   struct gpio_dt_spec int_gpio;
