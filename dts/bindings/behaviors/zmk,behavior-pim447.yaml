@@ -3,16 +3,16 @@
 
 description: Custom behavior to adjust trackball parameters via keypresses.
 
-compatible: "zmk,behavior-pim447"
+compatible: 'zmk,behavior-pim447'
 
 include: one_param.yaml
 
 properties:
-  "#binding-cells":
-    const: 1
-    type: int
+    '#binding-cells':
+        const: 1
+        type: int
 
-  action:
-    type: int
-    required: false
-    description: The action to perform.
+    action:
+        type: int
+        required: false
+        description: The action to perform.
