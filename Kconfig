@@ -1,5 +1,3 @@
-# 2024 t0bybr
-
 config ZMK_PIMORONI_PIM447
   bool "Pimoroni PIM447 Trackball support"
   select ZMK_MOUSE
