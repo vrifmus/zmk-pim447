@@ -185,6 +185,6 @@ BEHAVIOR_DT_INST_DEFINE(
     NULL,                                // Data pointer
     NULL,                                // Configuration pointer
     POST_KERNEL,                         // Initialization level
-    CONFIG_KERNEL_INIT_PRIORITY_DEFAULT, // Initialization priority
+    99,                                  // Initialization priority
     &behavior_pim447_driver_api          // Driver API pointer
 );
